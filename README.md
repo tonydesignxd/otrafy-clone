@@ -4,6 +4,7 @@
 ```
 cd cms
 npm install
+npm install strapi@beta -g
 strapi develop
 ```
 2. Second run and so on
