@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "supplier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "integer"
+    }
+  },
+  "connection": "default",
+  "collectionName": "suppliers"
+}

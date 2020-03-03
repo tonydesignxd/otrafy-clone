@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "companies",
+  "info": {
+    "name": "company"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "Buyers": {
+      "type": "biginteger"
+    },
+    "Suppliers": {
+      "type": "biginteger"
+    },
+    "Forms": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "MaximumBuyers": {
+      "type": "biginteger"
+    },
+    "MaximumSuppliers": {
+      "type": "biginteger"
+    },
+    "MaximumForms": {
+      "type": "biginteger"
+    }
+  }
+}

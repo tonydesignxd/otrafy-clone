@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "buyer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Permission": {
+      "type": "integer",
+      "default": 1
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "JobTitle": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "buyers"
+}
